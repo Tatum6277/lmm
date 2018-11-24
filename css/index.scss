@@ -1,0 +1,320 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    /*设置盒模型*/
+    background-color: #f7f7f7;
+}
+
+.lmm_hearder {
+    position: relative;
+    width: 100%;
+    height: 0.45rem;
+    padding: 0 0.68rem;
+    // background-color: #f00;
+
+    .lmm_heard {
+        span {
+            position: absolute;
+            top: 0;
+            left: 0.15rem;
+            color: #d31e7a;
+            font-size: 0.14rem;
+            line-height: 0.45rem;
+        }
+
+        p {
+            text-align: center;
+            font-size: 0.16rem;
+            line-height: 0.45rem;
+            color: #000;
+        }
+
+        a {
+            position: absolute;
+            font-size: 0.16rem;
+            line-height: 0.45rem;
+            top: 0;
+            right: 0.15rem;
+            color: #d31e7a;
+        }
+    }
+}
+
+.lmm_center {
+    width: 100%;
+    // height: 100%;
+
+    // 轮播图样式
+    .lmm_banner {
+        width: 100%;
+        // height: 1.95rem;
+        // background-color: #ff0;
+
+        .imgLink {
+            display: block;
+
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+
+    // 导航栏样式
+    .lmm_nav {
+        width: 100%;
+        // height: 2.43rem;
+        border-bottom: 1px solid #ddd;
+
+        ul {
+            li {
+                height: 100%;
+                float: left;
+                line-height: normal;
+                width: 33.33%;
+                padding: 4px;
+
+                a {
+                    display: block;
+
+                    img {
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+            }
+        }
+    }
+
+    // 小的导航栏样式
+    .lmm_nav_sm {
+        width: 100%;
+        padding-bottom: 0.15rem;
+
+        ul {
+            width: 100%;
+
+            li {
+                float: left;
+                width: 25%;
+                // height: 1.14rem;
+                border: 1px solid #ddd;
+
+                line-height: normal;
+
+                a {
+                    display: block;
+
+                    img {
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+            }
+        }
+    }
+
+    // 产品块样式
+    .lmm_pro {
+        padding-bottom: 0.15rem;
+
+        .pto_left {
+            width: 50%;
+
+            a {
+                display: block;
+                width: 100%;
+                height: 100%;
+
+                img {
+                    display: block;
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+
+        }
+
+        .pro_right {
+            width: 50%;
+            border-left: 1px solid #ccc;
+
+            a {
+                display: block;
+                height: 50%;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+
+            }
+
+            .top {
+                border-bottom: 1px solid #ccc;
+            }
+        }
+    }
+
+    // 热门介绍
+    .lmm_hot {
+        width: 100%;
+        margin-bottom: 0.15rem;
+
+        .hot_title {
+            background-color: #f1f1f1;
+            border-bottom: 1px solid #dddddd;
+
+            p {
+                color: #555555;
+                padding-left: 0.18rem;
+                height: 0.36rem;
+                font-size: 0.18rem;
+                line-height: 0.36rem;
+            }
+        }
+
+        a {
+            display: block;
+            border-bottom: 1px solid #dddddd;
+
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+
+    // tab栏之产品块
+    .lmm_tab {
+        border-top: 1px solid #dddddd;
+
+        .tab_title {
+            width: 100%;
+
+            ul {
+                width: 100%;
+
+                li {
+                    float: left;
+                    width: 50%;
+
+                    a {
+                        display: block;
+                        margin: 0 auto;
+                        text-align: center;
+                        font-size: 0.17rem;
+                        width: 0.66rem;
+                        height: 0.46rem;
+                        line-height: 0.46rem;
+
+                    }
+                }
+
+                .active {
+                    color: #d3079e;
+                    border-bottom: 0.03rem solid #d3079e;
+                }
+            }
+        }
+
+        // tab栏列表
+        .tab_list {
+            ul {
+                li {
+                    margin-bottom: 0.18rem;
+                    border-bottom: 1px solid #dddddd;
+                    background-color: #fff;
+
+                    p {
+                        color: #000;
+                        display: block;
+                        height: 0.3rem;
+                        line-height: 0.3rem;
+                        font-size: 0.14rem;
+                    }
+
+                    span {
+                        display: block;
+                        color: #484036;
+                        font-size: 0.16rem;
+                        height: 0.26rem;
+
+                    }
+
+                    a {
+                        display: block;
+
+                        img {
+                            width: 100%;
+                            height: 100%;
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+
+    // 查看更多
+    .lmm_seeMove {
+        margin-bottom: 0.15rem;
+
+        a {
+            display: block;
+            height: 0.3rem;
+            text-align: center;
+            font-size: 0.16rem;
+            line-height: 0.3rem;
+            color: #555;
+            border-top: 1px solid #ddd;
+            border-bottom: 1px solid #ddd;
+        }
+    }
+
+
+
+}
+
+.lmm_footer {
+    width: 100%;
+    background-color: #d3079e;
+
+    .foot {
+        display: flex;
+        height: 0.32rem;
+        line-height: normal;
+        justify-content: space-between;
+        color: #fff;
+        padding: 2px 15px;
+
+
+        .foot_left {
+            flex: 1;
+            font-size: 0.2rem;
+            a:nth-of-type(2){
+                margin-left:20px; 
+            }
+        }
+        a {
+            color: #fff;
+            line-height: 0.32rem;
+        }
+
+        .foot_right {
+            flex: 1;
+            font-size: 0.2rem;
+
+            a {
+                display: block;
+                float: right;
+                top: 0;
+                right: 0;
+            }
+
+
+        }
+    }
+
+}
